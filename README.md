@@ -26,7 +26,7 @@ The website presents professional information including profile details, skills,
 
 ## Technology Stack
 - HTML5  
-- CSS3  
+- CSS  
 - JavaScript  
 - Node.js  
 - Express.js  
@@ -58,3 +58,4 @@ The website presents professional information including profile details, skills,
 ## Author
 Ritu R Suvarna  
 Future Interns – Full Stack Web Development Intern
+
