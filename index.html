@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ritu R Suvarna | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description" content="Ritu R Suvarna - Full Stack Developer Portfolio showcasing full stack projects, backend systems, and internship work.">
+    <meta name="keywords" content="Ritu R Suvarna, Full Stack Developer, CSE Student, Portfolio, Node.js, PostgreSQL">
+    <meta name="author" content="Ritu R Suvarna">
+
+    <!-- Open Graph (LinkedIn Preview) -->
+    <meta property="og:title" content="Ritu R Suvarna | Full Stack Developer">
+    <meta property="og:description" content="Professional portfolio built with HTML, CSS, JavaScript, Node.js and PostgreSQL.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+        <h2 class="logo">Ritu</h2>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Ritu R Suvarna</span> 👋</h1>
+            <p class="subtitle">
+                Aspiring Full Stack Developer | 2nd Year CSE Student | Backend Enthusiast
+            </p>
+            <button onclick="downloadResume()">Download Resume</button>
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a second-year Computer Science Engineering student with a strong interest in 
+            full stack web development and backend systems. I enjoy building structured, 
+            scalable applications and continuously improving my problem-solving skills. 
+
+            Currently, I am focusing on mastering HTML, CSS, JavaScript, Node.js, 
+            PostgreSQL, and Python while working on real-world projects through my internship. 
+
+            My goal is to become a highly skilled full stack developer capable of 
+            designing efficient systems and delivering impactful digital solutions.
+        </p>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-card">
+            <h3>B.E in Computer Science Engineering</h3>
+            <p>Expected Graduation: 2028</p>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress">
+                <div class="progress-bar html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress">
+                <div class="progress-bar css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress">
+                <div class="progress-bar js"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Node.js</p>
+            <div class="progress">
+                <div class="progress-bar node"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>PostgreSQL</p>
+            <div class="progress">
+                <div class="progress-bar db"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <p>Python</p>
+            <div class="progress">
+                <div class="progress-bar python"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Full Stack Portfolio Website</h3>
+            <p>
+                A professional portfolio website with PostgreSQL database integration,
+                backend API, and email notification system built as part of my internship.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Client Lead Management System (Mini CRM)</h3>
+            <p>
+                A full stack application to manage and track client leads,
+                implementing CRUD operations using Node.js and PostgreSQL.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="form-status"></p>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>© 2026 Ritu R Suvarna. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
